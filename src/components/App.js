@@ -15,11 +15,11 @@ class App extends Component {
         </button>
         {this.state.clicked ? (
           <p id="para">
-            "Hello, I've learnt to use the full-stack evaluation tool. This
-            makes me so happy"
+            Hello, I've learnt to use the full-stack evaluation tool. This makes
+            me so happy
           </p>
         ) : (
-          <p id="para">""</p>
+          <p id="para"></p>
         )}
       </div>
     );
