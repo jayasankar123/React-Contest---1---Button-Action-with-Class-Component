@@ -19,7 +19,7 @@ class App extends Component {
             me so happy
           </p>
         ) : (
-          <p id="para"></p>
+          ""
         )}
       </div>
     );
