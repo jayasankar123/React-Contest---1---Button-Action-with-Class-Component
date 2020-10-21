@@ -10,7 +10,7 @@ class App extends Component {
   render() {
     return (
       <div id="main">
-        <button onClick={() => this.setState({ clicked: true })}>
+        <button id="click" onClick={() => this.setState({ clicked: true })}>
           CLICK TO SEE PARA
         </button>
         {this.state.clicked
