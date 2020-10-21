@@ -13,9 +13,14 @@ class App extends Component {
         <button id="click" onClick={() => this.setState({ clicked: true })}>
           CLICK TO SEE PARA
         </button>
-        {this.state.clicked
-          ? "Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy"
-          : ""}
+        {this.state.clicked ? (
+          <p id="para">
+            "Hello, I've learnt to use the full-stack evaluation tool. This
+            makes me so happy"
+          </p>
+        ) : (
+          ""
+        )}
       </div>
     );
   }
